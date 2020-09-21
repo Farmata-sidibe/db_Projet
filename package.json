@@ -1,0 +1,26 @@
+{
+    "name": "nodeprojet",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js"
+    },
+    "author": "Farmata SIDIBE",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.2.0",
+        "asynclib": "^1.0.1",
+        "bcrypt": "^3.0.6",
+        "body-parser": "1.15.2",
+        "cors": "2.8.4",
+        "express": "^4.14.0",
+        "jsonwebtoken": "7.4.2",
+        "jwt-utils": "^1.0.5",
+        "mysql2": "^1.6.1",
+        "nodemailer": "^6.4.11",
+        "nodemon": "1.18.4",
+        "sequelize": "^4.38.0"
+    }
+}
